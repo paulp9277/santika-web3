@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import NavbarComponent from "../components/navbarComponent";
+import NavbarComponent from "../components/NavbarComponent";
 import FooterComponent from "../components/FooterComponent";
 import ProductComponent from "../components/ProductComponent";
 import ScrollToTop from "../components/ScrollToTop";
