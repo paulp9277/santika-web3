@@ -13,7 +13,7 @@ import dombaGuling from "../assets/img/product/dombaGuling.png";
 import dombaGuling1 from "../assets/img/product/dombaGuling1.png";
 import testi1 from "../assets/img/Testimonial/testi1.jpg";
 import testi2 from "../assets/img/Testimonial/testi2.jpg";
-import testi3 from "../assets/img/Testimonial/testi3.jpg";
+import testi3 from "../assets/img/Testimonial/Testi3.jpg";
 
 export const navlinks = [
     {
