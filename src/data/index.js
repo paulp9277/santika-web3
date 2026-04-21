@@ -7,7 +7,7 @@ import bibit from "../assets/img/product/bibit.png";
 import super1 from "../assets/img/product/super1.png";
 import kelasA from "../assets/img/product/kelasA.png";
 import kelasB from "../assets/img/product/kelasB.png";
-import kelasC from "../assets/img/product/kelasC.png";
+import kelasC from "../assets/img/product/KelasC.png";
 import kelasD from "../assets/img/product/kelasD.png";
 import dombaGuling from "../assets/img/product/dombaGuling.png";
 import dombaGuling1 from "../assets/img/product/dombaGuling1.png";
