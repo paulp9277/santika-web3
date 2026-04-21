@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './dist/css/main.css'
+import './main.css'
 import { AuthProvider } from './context/AuthContext.jsx';
 import { useAuth } from './context/AuthContext.jsx';
 

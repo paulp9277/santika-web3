@@ -1,0 +1,262 @@
+* {
+    font-family: 'roboto';
+}
+
+:root {
+    --primary-color: #fcfdfd;
+    --secondary-color: #dc3545;
+    --color-text: #231942;
+    --navbar-color: #fcfdfd;
+    --navbar-color-text:#000000;
+}
+
+.navbar .span1 {
+    color: #9a1615;
+}
+
+.navbar {
+    position: fixed;
+    padding: 15px, o, 15px, 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fcfdfd;
+    border-bottom:2px solid #9a1615 ;
+    transition: all 0.2 ease;
+    -webkit-transition: all 0.2 ease;
+    -moz-transition: all 0.2 ease;
+    -ms-transition: all 0.2 ease;
+    -o-transition: all 0.2 ease;
+}
+
+#main-navbar .nav-link.active {
+  transition: all 0.3s ease;
+}
+
+/* Supaya scroll-nya halus */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px; /* Sesuaikan dengan tinggi navbarmu */
+}
+
+.navbar .menu-text {
+    padding: 5px, 10px, 5px, 10px;
+    font-weight: 500 ;
+    font-size: 15px;
+    text-decoration: none;
+    color: #879aa6 ;
+    position: relative;
+    transition: all 0.3s ease;
+    border-top: 1px solid transparent; 
+    padding-top: 20px !important;
+}
+
+nav .social-icon {
+  color: #666 !important; /* Warna ikon default agak abu-abu */
+  transition: trasform 0.3s ease;
+}
+
+.navbar .social-icon:hover .bi-facebook {
+    color: #1877F2; /* Biru Facebook */
+  transform: translateY(-3px) scale(1.2);
+}
+.navbar .social-icon:hover .bi-instagram {
+  color: #E4405F; /* Pink Instagram */
+  transform: translateY(-3px) scale(1.2);
+}
+.navbar .social-icon:hover .bi-tiktok {
+  color: #000000; /* Hitam TikTok */
+  transform: translateY(-3px) scale(1.2);
+}
+
+.navbar .menu-text:hover{
+    color: #9a1615;
+}
+
+.navbar .menu-text.active {
+    color: #9a1615 !important; /* Warna teks hijau (sesuaikan) */
+    border-top: 4px solid #9a1615 !important; /* GARIS DI ATAS */
+    font-weight: bold;
+}
+
+
+header {
+    background: #fcfdfd;
+    background: -webkit-linear-gradient(to top,#416683, #879aa6 );
+    background: linear-gradient(to top,  #416683, #879aa6);
+}
+
+header::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Atur angka 0.5 di bawah: makin tinggi makin gelap */
+  z-index: 1;
+  pointer-events: none;
+}
+
+.homepage {
+    background-color: #fcfdfd;  
+}
+
+.homepage .header-box h1 {
+    background-color: #fcfdfd ;
+    color: #931e1d ;
+    width: 350px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.homepage .header-box .p1 {
+    line-height: 2;
+    color:#fcfdfd;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+    pointer-events: none;
+    letter-spacing: 4px;
+}
+
+.homepage .header-box .p2 {
+    line-height: 2;
+    color:#fdfcfc;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+    pointer-events: none;
+    text-align: justify;
+}
+
+.homepage .row:nth-child(1) {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.homepage .baten-produk {
+  background-color: #9a1615; /* Merah yang lebih modern & catchy */
+  color: #fcfdfd;
+}
+.homepage .header-box .gambir {
+    max-width: 100%;
+    border: #231942;
+}
+
+.homepage .bawah h1 {
+    color: #fcfdfd;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+.productPage {
+    padding-top: 100px;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(to top, #879aa6, #416683 );
+    background: linear-gradient(to top, #879aa6, #416683);
+}
+
+.productPage h1 {
+    color: #fcfdfd;
+}
+.productPage h1 span {
+    color: #fcfdfd;
+    font-size: 60px;
+}
+
+.productPage  .price-text {
+    color: #fcfdfd ;
+    font-size: 20px;
+    background-color: #9a1615;
+}
+.productPage  .weight-text {
+    color: #9a1615 ;
+}
+
+.footer-santika .footer-nav li a{
+    color :#000000;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.footer-santika .footer-nav li a:hover{
+    color :#9a1615;
+}
+.footer-santika .footer-nav li:hover{
+    color: #1877F2;
+    transform: translateY(-3px) scale(1);
+}
+
+#testimoni {
+  background-color: #f8f9fa; /* Background abu-abu muda agar kartu putihnya menonjol */
+}
+
+.testimoni-card {
+  transition: all 0.3s ease-in-out;
+  background: white;
+  position: relative;
+  overflow: hidden; /* Sembunyikan bagian kutipan yang keluar kotak */
+  height: 100%; /* Kartu akan mengikuti tinggi kolom paling tinggi */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Efek angkat sedikit saat mouse di atas kartu */
+.testimoni-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+  border-bottom: 3px solid #e63946 !important; /* Tambahkan garis merah di bawah */
+}
+
+.quote-icon-wrapper {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  transform: rotate(180deg); /* Balik kutipannya */
+}
+
+.testimoni-card .card-text {
+  font-style: italic; /* Teks testimoni miring biar estetik */
+}
+
+/* Biar rapi di HP */
+
+.login-wrapper {
+    padding-top: 100px ;
+}
+.register-wrapper {
+    padding-top: 100px ;
+}
+.dashboard-wrapper {
+    padding-top: 100px;
+}
+.admin-wrapper {
+    padding-top: 100px;
+}
+.product-wrapper {
+    padding-top: 100px;
+}
+.checkout-wrapper {
+    padding-top: 100px;
+}
+.dropdown-toggle::after {
+  display: none; /* Menghilangkan panah kecil bawah kalau kamu nggak suka */
+}
+
+
+
+#user-dropdown {
+  border: 1px solid #dc3545;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+@media (max-width: 768px) {
+  #testimoni h2 {
+    font-size: 2.2rem;
+  }
+  .testimoni-card {
+    padding: 1rem !important;
+  }
+}
