@@ -46,7 +46,7 @@ const NavbarComponent = () => {
             <Nav className="ms-auto d-flex flex-row justify-content-center mt-3 mt-lg-0">
             <Nav.Link href="https://www.facebook.com/santikafarm" target="_blank" className="mx-2 social-icon"><Facebook size={20}/></Nav.Link>
             <Nav.Link href="https://www.instagram.com/santikafarm/" target="_blank" className="mx-2 social-icon"><Instagram size={20}/></Nav.Link>
-            <Nav.Link href="https://www.tiktok.com/@irfanazizi_07" target="_blank" className="mx-2 social-icon"><Tiktok size={20}/></Nav.Link>
+            <Nav.Link href="https://www.tiktok.com/@santika.farm" target="_blank" className="mx-2 social-icon"><Tiktok size={20}/></Nav.Link>
             
           </Nav>
           {!user? (
